@@ -21,7 +21,7 @@ public class BikeController {
 	@Autowired
 	BikeService bikeService;
 	
-	@RequestMapping(value="/hello", method=RequestMethod.GET)
+	@RequestMapping(value="hello", method=RequestMethod.GET)
     public String index() {
     	return("Hello");
     }
